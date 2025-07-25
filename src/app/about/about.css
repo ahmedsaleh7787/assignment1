@@ -1,0 +1,30 @@
+
+.bg-c{
+    background-color: #1abc9c;
+}
+
+.line{
+    height: 4px;
+    width: 5rem;
+    background-color: white;
+}
+
+.c-pt{
+    padding-top: 11rem;
+}
+
+.c-w{
+    width: 35%;
+}
+
+@media (max-width: 768px) { 
+.c-w{
+    width: 80%;
+}
+
+.cw2{
+    width: 100%;
+}
+
+ }
+

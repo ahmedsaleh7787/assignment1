@@ -1,0 +1,51 @@
+
+.text-line-c{
+    color: #2c3e50;
+}
+
+.line{
+    height: 4px;
+    width: 5rem;
+    background-color:#2c3e50;
+}
+
+.c-pt{
+    padding-top: 11rem;
+}
+
+
+img{
+    border-radius:8px ;
+
+}
+
+.img>div{
+position: absolute;
+inset: 0;
+background-color: #1abc9c;
+opacity: 0;
+border-radius:8px ;
+transition: all 0.5s ease;
+
+}
+
+.img:hover>div{
+
+opacity: 0.7;
+    
+}
+
+.icon-fs{
+    font-size: 6rem;
+
+}
+
+.bg-color-overlay{
+    background-color: rgba(0, 0, 255, 0.192);
+}
+
+
+.img-w-h-overlay{
+    max-width: 600px;
+    max-height: 600px;
+}

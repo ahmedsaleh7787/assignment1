@@ -1,0 +1,40 @@
+
+<!-- refrance -->
+<!-- https://www.google.com/search?q=binding+height+number+in+angular&oq=bin&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MgYIAhBFGEAyDAgDECMYJxiABBiKBTINCAQQABiRAhiABBiKBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDExNDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8 -->
+ <!-- [style.min-height.px]="initWidth" -->
+<nav class="position-fixed navbar navbar-expand-lg bg-body-tertiary w-100 z-1" [style.padding-block.px]="initWidth">
+
+  <div class=" container">
+
+    <a class="navbar-brand text-uppercase fs-2 fw-bold ms-3" [routerLink]="'home'" >Start Framework</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+
+        <li class="nav-item">
+          <a class="nav-link  text-white fw-bold me-3 px-2 c-m cw" [routerLink]="'about'"  [routerLinkActive]="'active'"  >about</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link  text-white fw-bold me-3 px-2 c-m cw" [routerLink]="'portfolio'"  [routerLinkActive]="'active'">portfolio</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link  text-white fw-bold me-3 px-2 c-m cw" [routerLink]="'contact'"  [routerLinkActive]="'active'">contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</nav>
+
+
+

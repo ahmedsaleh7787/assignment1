@@ -1,0 +1,17 @@
+
+
+img{
+    margin-top: 10rem;
+    max-width: 17rem;
+    max-height: 17rem;
+}
+
+.bg-c{
+    background-color: #1abc9c;
+}
+
+.line{
+    height: 4px;
+    width: 5rem;
+    background-color: white;
+}

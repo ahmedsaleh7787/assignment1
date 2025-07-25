@@ -1,0 +1,53 @@
+<div class="container-fluid  ">
+    <div class="row d-flex justify-content-center align-items-center">
+
+        <div class="d-flex flex-column justify-content-center align-items-center c-pt">
+            <p class="text-uppercase fs-1 fw-bold text-line-c mt-1 text-center">portfolio component</p>
+            <div class="d-flex justify-content-center align-items-center mb-3">
+                <div class="line"></div>
+                <i class="fa-solid fa-star fs-6 mx-3 text-line-c"></i>
+                <div class="line"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container mb-5">
+    <div class="row g-4">
+
+        @for (item of items; track $index) {
+
+        <div class=" col-md-6  col-lg-4">
+            <div class="position-relative img ">
+                <img #imgG class="img-fluid  " [src]="item" alt="">
+                <div></div>
+                <div (click)="openImg(backg1)" (click)="getImg(imgG)"
+                    class="d-flex justify-content-center align-items-center h-100">
+                    <i class="fa-solid fa-plus icon-fs fw-bold text-white"></i>
+                </div>
+            </div>
+        </div>
+
+        }
+
+    </div>
+</div>
+
+
+
+
+
+<div #backg1 (click)="closeImg(backg1)" class="d-none">
+    <div class="z-2 position-fixed top-0 end-0 bottom-0 start-0 bg-color-overlay  vh-100 h-100 w-100">
+        <div class=" d-flex justify-content-center align-items-center h-100">
+            <img #mouseClick [src]="imgUrl" alt="" class=" img-fluid img-w-h-overlay" (click)="stopmouseclick($event)"	>
+        </div>
+
+    </div>
+</div>
