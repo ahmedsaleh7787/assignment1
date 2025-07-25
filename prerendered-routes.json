@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/assignment1": {},
+    "/assignment1/about": {},
+    "/assignment1/contact": {},
+    "/assignment1/home": {},
+    "/assignment1/portfolio": {}
+  }
+}
